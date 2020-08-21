@@ -11,6 +11,8 @@
   },
   "private": true,
   "dependencies": {
+    "haml-haml-loader": "^1.0.1",
+    "@angular-builders/custom-webpack": "^10.0.0",
     "@angular/animations": "~10.0.9",
     "@angular/common": "~10.0.9",
     "@angular/compiler": "~10.0.9",

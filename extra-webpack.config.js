@@ -5,7 +5,7 @@ module.exports = function (angularConfig) {
     return merge(angularConfig, {
         module: {
             rules: [
-              { test: /\.haml$/, loader: 'haml-haml' }
+              { test: /\.haml$/, loader: 'haml-haml-loader' }
             ]
           }
         })
